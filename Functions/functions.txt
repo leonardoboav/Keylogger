@@ -1,0 +1,11 @@
+/* Hook Functions:
+  -SetWindowsHookExA: Instala um procedimento Hook em uma aplicação definida em cadeia. Esse hook permite monitorar certos eventos em threads específicas ou em conjunto.
+
+  -WH_KEYBOARD_LL: Instala um procedimento hook para monitorar funções do teclado. 
+
+  -CallNextHookEx: Envia a info do hook para o próximo hook da cadeia (Um procedimento hook pode chamar essa função tanto antes como depois de processar as informações de hook)
+
+  -UnhookWindowsHookEx: Remove o procedimento hook instalado na cadeira Hook pela função SetWindowsHookExA.
+
+  -KBDLLHOOKSTRUCT: Contém infos  sobre um evento de baixo nível do teclado
+*/
